@@ -5,7 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-image: url('/public/DALL_E_landscape.jpg'); 
+  background-size: cover; /* Image covers the entire background */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Image stays in place while scrolling */
 }
+
+
+
+/* Adding a container for main layout */
+.main-container { 
+  padding: 20px;
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
